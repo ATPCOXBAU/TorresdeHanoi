@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Juego_AutoFrame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="549" height="427"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <background color="-7876885"/>
+    </properties>
+    <border type="none" title="Juego Automatico"/>
+    <children>
+      <component id="5be8" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3125967"/>
+          <foreground color="-725000"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+      <component id="ecccd" class="javax.swing.JButton" binding="iniciarButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9321373"/>
+          <text value="Iniciar"/>
+        </properties>
+      </component>
+      <component id="8f1d1" class="javax.swing.JLabel" binding="numeroDeDiscosLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Numero De Discos"/>
+        </properties>
+      </component>
+      <component id="ca0d4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Movimientos"/>
+        </properties>
+      </component>
+      <component id="45c0a" class="javax.swing.JLabel" binding="contadormovimientoslbl">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="55e8" class="javax.swing.JLabel" binding="contadorDiscos">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="JetBrains Mono" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <scrollpane id="b1139">
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4cc62" class="javax.swing.JTextArea" binding="AreaTextto">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-725000"/>
+              <caretColor color="-16777216"/>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <font name="DialogInput" size="16"/>
+              <foreground color="-16777216"/>
+              <lineWrap value="true"/>
+              <text value=""/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

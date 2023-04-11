@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Menu_principal">
+  <grid id="27dc6" binding="panelinicio" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="630" height="414"/>
+    </constraints>
+    <properties>
+      <background color="-7876885"/>
+      <foreground color="-725000"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4380e" class="javax.swing.JLabel" binding="TORRESDEHANOILabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-725000"/>
+          <font name="JetBrains Mono" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="TORRES DE HANOI"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="16185" class="javax.swing.JButton" binding="configuraciónButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8689426"/>
+          <font name="Fira Code" size="16" style="2"/>
+          <foreground color="-725000"/>
+          <text value="Configuración"/>
+        </properties>
+      </component>
+      <component id="f18ca" class="javax.swing.JButton" binding="nuevoJuegoButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8689426"/>
+          <font name="Fira Code" size="16" style="2"/>
+          <foreground color="-725000"/>
+          <text value="Nuevo Juego"/>
+        </properties>
+      </component>
+      <component id="75751" class="javax.swing.JButton" binding="TOP5Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8689426"/>
+          <font name="Fira Code" size="16" style="2"/>
+          <foreground color="-725000"/>
+          <text value="TOP 5"/>
+        </properties>
+      </component>
+      <component id="625b7" class="javax.swing.JButton" binding="juegoAutomaticoButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8689426"/>
+          <font name="Fira Code" size="16" style="2"/>
+          <foreground color="-725000"/>
+          <text value="Juego Automatico"/>
+        </properties>
+      </component>
+      <component id="8b1a8" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3125967"/>
+          <font name="DialogInput" size="14" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
